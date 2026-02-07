@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+.vscode/
+*.csproj.user
+bin/
+obj/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
