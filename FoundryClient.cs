@@ -1,11 +1,13 @@
-﻿using Azure.Identity;
+using Azure.Identity;
 
 internal class FoundryClient
 {
-    private DefaultAzureCredential cred;
+    private readonly DefaultAzureCredential _credential;
 
-    public FoundryClient(DefaultAzureCredential cred)
+    public FoundryClient(DefaultAzureCredential credential)
     {
-        this.cred = cred;
+        _credential = credential;
     }
+
+    public DefaultAzureCredential Credential => _credential;
 }
