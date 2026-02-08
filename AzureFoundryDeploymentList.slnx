@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="FoundryDemo.csproj" />
+  <Project Path="FoundryDemo\FoundryDemo.csproj" />
+  <Project Path="FoundryApi\FoundryApi.Domain\FoundryApi.Domain.csproj" />
+  <Project Path="FoundryApi\FoundryApi.Application\FoundryApi.Application.csproj" />
+  <Project Path="FoundryApi\FoundryApi.Infrastructure\FoundryApi.Infrastructure.csproj" />
+  <Project Path="FoundryApi\FoundryApi.Web\FoundryApi.Web.csproj" />
 </Solution>
